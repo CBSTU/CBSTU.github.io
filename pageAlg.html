@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Сombinatorics</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+          <nav class="navbar navbar-inverse  navbar-fixed-top">
+            <div class="container">
+            <div class="container-fluid">
+            <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">На главную</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+              <li><a href="pageHistory.html">История</a></li>
+              <li><a href="pageTeory.html">Теория</a></li>
+              <li><a href="pageAlg.html">Алгоритмы</a></li>
+              <li><a href="pageLab.html">Литература</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </nav>
+      </div>
+      <div class='Alg'> 
+    <form name=data>
+    <h1>Типы задач</h1>
+    <h4>Размещение с повторением</h4>
+    <input type='text' id="k1" name="k1" placeholder="Введите число k" />
+    <input type='text' id="n1" name="n1" placeholder="Введите число n" />
+    <input type='button' value='Решить' onclick='conmb1()' />
+    <input type="reset"/>
+    <br>
+    <div id='result1'></div>
+    </form>
+    <form name=data>
+    <h4>Размещение без повторений</h4>
+    <input type='text' id="k2" name="k2" placeholder="Введите число k" />
+    <input type='text' id="n2" name="n2" placeholder="Введите число n" />
+    <input type='button' value='Решить' onclick='conmb2()' />
+    <input type="reset"/>
+    <br>
+    <div id='result2'></div>
+    </form>
+    <form name=data>
+    <h4>Сочетание с повторением</h4>
+    <input type='text' id="k3" name="k3" placeholder="Введите число k" />
+    <input type='text' id="n3" name="n3" placeholder="Введите число n" />
+    <input type='button' value='Решить' onclick='conmb3()' />
+    <input type="reset"/>
+    <br>
+    <div id='result3'></div>
+    </form>
+    <form name=data>
+    <h4>Сочитание без повторений</h4>
+    <input type='text' id="k4" name="k4" placeholder="Введите число k" />
+    <input type='text' id="n4" name="n4" placeholder="Введите число n" />
+    <input type='button' value='Решить' onclick='conmb4()' />
+    <input type="reset"/>
+    <br>
+    <div id='result4'></div>
+    </form>
+    <form name=data>
+    <h4>Перестановки c повторением</h4>
+    <input type='text' id="k5" name="k5" placeholder="Введите число k" />
+    <input type='text' id="n5" name="n5" placeholder="Введите число n" />
+    <input type='button' value='Решить' onclick='conmb5()' />
+    <input type="reset"/>
+    <br>
+    <div id='result5'></div>
+    </form>
+    <form name=data>
+    <h4>Перестановки без повторений</h4>
+    <input type='text' id="n6" name="n6" placeholder="Введите число n" />
+    <input type='button' value='Решить' onclick='conmb6()' />
+    <input type="reset"/>
+    <br>
+    <div id='result6'></div>
+    </form>
+    <br><br><br><br>
+    <form name=data>
+    <h4>Подсчет бинома Ньютона</h4>
+    <input type='text' id="k7" name="k7" placeholder="Введите число k" />
+    <input type='text' id="n7" name="n7" placeholder="Введите число n" />
+    <input type='button' value='Решить' onclick='conmb7()' />
+    <input type="reset"/>
+    <br>
+    <div id='result7'></div>
+    </form>
+    <form name=data>
+    <h4>Подсчет факториала</h4>
+    <input type='text' id="n8" name="n8" placeholder="Введите число n" />
+    <input type='button' value='Решить' onclick='conmb8()' />
+    <input type="reset"/> 
+    <br>
+    <div id='result8'></div>
+    </form>
+  </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
